@@ -12,7 +12,7 @@ public class PageController {
 		
 		
 		ModelAndView mv = new ModelAndView("page");
-		mv.addObject("Merhaba : ", " Spring Web MVC Hoþgeldiniz");
+		mv.addObject("deneme", " Spring Web MVC Hoþgeldiniz");
 		return mv;
 	}
 
